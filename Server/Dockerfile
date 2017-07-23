@@ -1,5 +1,5 @@
 FROM java:alpine
-COPY . /usr/src/myapp
+COPY app/ /usr/src/myapp/
 WORKDIR /usr/src/myapp
 
 RUN ln -s /usr/src/myapp/Data /usr/src/myapp/data
