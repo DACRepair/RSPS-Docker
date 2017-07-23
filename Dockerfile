@@ -1,3 +1,3 @@
-FROM java:alpine
+FROM openjdk:alpine
 
 CMD ["ping", "localhost"]
