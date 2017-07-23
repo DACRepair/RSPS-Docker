@@ -1,5 +1,4 @@
-FROM java:alpine
-
+FROM java:8-jdk-alpine
 RUN apk update && \
     apk add git
 
